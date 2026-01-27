@@ -26,3 +26,39 @@ RailFlow is a modern, high-conversion railway booking application designed to st
 - **PDF Generation**: jsPDF
 - **State Management**: React Hooks & Context API
 
+## 💻 Getting Started
+
+**Prerequisites:** Node.js (v18 or higher recommended)
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/sowmya2006-s/railflow.git
+    cd railflow
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Environment**:
+    Create or update your `.env.local` file with your API keys:
+    ```env
+    VITE_GROQ_API_KEY=your_groq_api_key_here
+    VITE_GEMINI_API_KEY=your_gemini_api_key_here
+    ```
+
+4.  **Run the application**:
+    ```bash
+    npm run dev
+    ```
+    The app will be available at `http://localhost:3000`.
+
+## 📂 Project Structure
+
+- `/components`: Reusable UI components (Search, ChatBot, Analytics, etc.)
+- `/services`: API service integrations (Grok, Gemini)
+- `/store`: State management logic
+- `/types.ts`: TypeScript interfaces and types
+- `App.tsx`: Main application entry and routing logic
+
